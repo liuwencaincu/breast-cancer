@@ -29,7 +29,7 @@ from sklearn.tree import DecisionTreeClassifier
 from imblearn.over_sampling import RandomOverSampler
 
 #应用标题
-st.title('Application of Machine Learning Methods to Predict Bone Metastases in Infiltrating Duct Carcinoma Patients')
+st.title('Application of Machine Learning Methods to Predict Bone Metastases in Breast Infiltrating Ductal Carcinoma Patients')
 
 
 
