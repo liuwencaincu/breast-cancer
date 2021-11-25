@@ -115,8 +115,8 @@ st.title("")
 #st.warning('This is a warning')
 #st.error('This is an error')
 
-st.info('Information of the model: Auc: 0.882 ;Accuracy: 0.802 ;Sensitivity(recall): 0.811 ;Specificity :0.801 ')
-st.success('Affiliation: The First Affiliated Hospital of Nanchang University, Nanchnag university. ')
+#st.info('Information of the model: Auc: 0.882 ;Accuracy: 0.802 ;Sensitivity(recall): 0.811 ;Specificity :0.801 ')
+#st.success('Affiliation: The First Affiliated Hospital of Nanchang University, Nanchnag university. ')
 
 
 
