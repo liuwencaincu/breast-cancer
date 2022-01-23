@@ -35,7 +35,7 @@ st.title('Application of Machine Learning Methods to Predict Bone Metastases in 
 
 # conf
 st.sidebar.markdown('## Variables')
-Age = st.sidebar.selectbox('Age',('<55','>=55'),index=0)
+Age = st.sidebar.selectbox('Age',('<50','>=50'),index=0)
 Sex = st.sidebar.selectbox('Sex',('Female','Male'),index=0)
 Race = st.sidebar.selectbox("Race",('American Indian/Alaska Native','Asian or Pacific Islander','Black','White'),index=3)
 Grade = st.sidebar.selectbox("Grade",('Ⅰ','Ⅱ','Ⅲ','Ⅳ'),index=0)
