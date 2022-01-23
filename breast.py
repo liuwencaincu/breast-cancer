@@ -47,7 +47,7 @@ Marital_status = st.sidebar.selectbox("Marital status",('Married','Unmarried'))
 
 # str_to_int
 
-map = {'<55':1,'>=55':2,'Female':1,'Male':2,'American Indian/Alaska Native':1,'Asian or Pacific Islander':2,'Black':3,
+map = {'<50':0,'>=50':1,'Female':1,'Male':2,'American Indian/Alaska Native':1,'Asian or Pacific Islander':2,'Black':3,
        'White':4,'Ⅰ':1,'Ⅱ':2,'Ⅲ':3,'Ⅳ':4,'T1':1,'T2':2,'T3':3,'T4':4,
        'N0':0,'N1':1,'N2':2,'N3':3,
        'HR-/HER2- (Triple Negative)':1,'HR-/HER2+ (HER2 enriched)':2,
