@@ -35,14 +35,14 @@ st.title('Application of Machine Learning Methods to Predict Bone Metastases in 
 
 # conf
 st.sidebar.markdown('## Variables')
-Age = st.sidebar.selectbox('Age',('<50','>=50'),index=0)
+Age = st.sidebar.selectbox('Age',('<50','>=50'),index=1)
 Sex = st.sidebar.selectbox('Sex',('Female','Male'),index=0)
 Race = st.sidebar.selectbox("Race",('American Indian/Alaska Native','Asian or Pacific Islander','Black','White'),index=3)
-Grade = st.sidebar.selectbox("Grade",('Ⅰ','Ⅱ','Ⅲ','Ⅳ'),index=0)
+Grade = st.sidebar.selectbox("Grade",('Ⅰ','Ⅱ','Ⅲ','Ⅳ'),index=2)
 Breast_subtype = st.sidebar.selectbox("Breast subtype",('HR-/HER2- (Triple Negative)','HR-/HER2+ (HER2 enriched)'
                                                         ,'HR+/HER2- (Luminal A)','HR+/HER2+ (Luminal B)'),index=0)
-T_stage = st.sidebar.selectbox("T stage",('T1','T2','T3','T4'))
-N_stage = st.sidebar.selectbox("N stage",('N0','N1','N2','N3'))
+T_stage = st.sidebar.selectbox("T stage",('T1','T2','T3','T4'),index=2)
+N_stage = st.sidebar.selectbox("N stage",('N0','N1','N2','N3'),index=1)
 Marital_status = st.sidebar.selectbox("Marital status",('Married','Unmarried'))
 
 # str_to_int
